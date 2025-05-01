@@ -36,3 +36,17 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# GoogleService-Info.plist
+GoogleService-Info.plist
+
+# google-services.json
+google-services.json
+
+android
+ios
+
+# node_modules
+node_modules
+
+tibetskayacourier-firebase-adminsdk-fbsvc-989a7c7d5d.json
