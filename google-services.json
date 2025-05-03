@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "771108660065",
+    "project_id": "tibetskayacourier",
+    "storage_bucket": "tibetskayacourier.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771108660065:android:0836592c06699660961b20",
+        "android_client_info": {
+          "package_name": "com.edil_kulzhabay.tibetskaya_courier"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1r5an8h1XqpRUrgdONsQ4dbNYAD4ZmZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

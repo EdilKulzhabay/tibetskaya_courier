@@ -40,9 +40,6 @@ app-example
 # GoogleService-Info.plist
 GoogleService-Info.plist
 
-# google-services.json
-google-services.json
-
 android
 ios
 

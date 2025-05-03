@@ -16,13 +16,13 @@ module.exports = {
         "android": {
             "googleServicesFile": "./google-services.json",
             "adaptiveIcon": {
-            "foregroundImage": "./assets/images/adaptive-icon.png",
-            "backgroundColor": "#ffffff"
+                "foregroundImage": "./assets/images/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
             },
             "package": "com.edil_kulzhabay.tibetskaya_courier",
             "permissions": [
-            "android.permission.ACCESS_COARSE_LOCATION",
-            "android.permission.ACCESS_FINE_LOCATION"
+                "android.permission.ACCESS_COARSE_LOCATION",
+                "android.permission.ACCESS_FINE_LOCATION"
             ]
         },
         "web": {
@@ -33,29 +33,30 @@ module.exports = {
         "plugins": [
             "expo-router",
             [
-            "expo-splash-screen",
-            {
-                "image": "./assets/images/splash.png",
-                "imageWidth": 200,
-                "resizeMode": "contain",
-                "backgroundColor": "#ffffff"
-            }
+                "expo-splash-screen",
+                {
+                    "image": "./assets/images/splash.png",
+                    "imageWidth": 200,
+                    "resizeMode": "contain",
+                    "backgroundColor": "#ffffff"
+                }
             ],
             [
-            "expo-notifications",
-            {
-                "icon": "./assets/images/icon.png",
-                "color": "#ffffff",
-                "defaultChannel": "default"
-            }
+                "expo-notifications",
+                {
+                    "icon": "./assets/images/icon.png",
+                    "color": "#ffffff",
+                    "defaultChannel": "default"
+                }
             ],
             [
-            "expo-location",
-            {
-                "locationAlwaysAndWhenInUsePermission": "Разрешите доступ к геолокации для работы приложения."
-            }
+                "expo-location",
+                {
+                    "locationAlwaysAndWhenInUsePermission": "Разрешите доступ к геолокации для работы приложения."
+                }
             ],
-            ["expo-build-properties", {
+            [
+                "expo-build-properties", {
                 "android": {
                     "googleServicesFile": "./google-services.json",
                     "extraGradleProperties": [
